@@ -2,16 +2,10 @@
     "compilerOptions": {
         "noImplicitAny": true,
         "strictNullChecks": true,
-        "experimentalDecorators": true,
-        "removeComments": true,
-        "module": "es2015",
+        "module": "es6",
         "moduleResolution": "node",
         "target": "es5",
-        "lib": ["es2018"],
-        "jsx": "react",
-        "allowJs": true,
-        "importHelpers": true,
-        "sourceMap": true,
+        "lib": ["es6"],
         "baseUrl": "./src",
         "outDir": "./build"
     },
