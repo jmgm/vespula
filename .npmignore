@@ -1,0 +1,9 @@
+.prettierrc
+tsconfig.json
+yarn.lock
+yarn-error.log
+
+node_modules/
+src/
+example/
+.vscode/

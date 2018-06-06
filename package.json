@@ -1,9 +1,21 @@
 {
     "name": "vespula",
-    "private": true,
+    "version": "0.1.0",
+    "description": "Basic IoC container for JS & React",
+    "author": {
+        "name": "Jan Metrycki",
+        "url": "https://github.com/jmgm",
+        "email": "jasiej@gmail.com"
+    },
+    "license": "MIT",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jmgm/vespula"
+    },
     "scripts": {
         "build": "tsc",
-        "clean": "rm -rf index.js index.d.ts index.js.map react.js react.d.ts react.js.map core/"
+        "clean": "rm -rf index.js index.d.ts react.js react.d.ts lib/"
     },
     "devDependencies": {
         "@types/prop-types": "^15.5.3",

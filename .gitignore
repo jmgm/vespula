@@ -1,14 +1,9 @@
-index.js
-index.d.ts
-index.js.map
-
-react.js
-react.d.ts
-react.js.map
-
-core/
+/*.js
+/*.d.ts
+/lib/
 
 .DS_Store
 yarn-error.log
-.vscode/
+
 node_modules/
+.vscode/
