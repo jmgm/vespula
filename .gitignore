@@ -1,5 +1,14 @@
+index.js
+index.d.ts
+index.js.map
+
+react.js
+react.d.ts
+react.js.map
+
+core/
+
 .DS_Store
 yarn-error.log
 .vscode/
 node_modules/
-build/

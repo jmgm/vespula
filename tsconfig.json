@@ -1,13 +1,19 @@
 {
     "compilerOptions": {
         "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
         "strictNullChecks": true,
-        "module": "es6",
+        "strictFunctionTypes": true,
+        "removeComments": false,
+        "declaration": true,
+        "module": "commonjs",
         "moduleResolution": "node",
         "target": "es5",
-        "lib": ["es6"],
-        "baseUrl": "./src",
-        "outDir": "./build"
+        "lib": ["es2017"],
+        "importHelpers": true,
+        "sourceMap": true,
+        "outDir": "./"
     },
     "include": ["src/**/*"],
     "exclude": ["node_modules"]

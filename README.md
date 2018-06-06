@@ -1,2 +1,3 @@
 # vespula
-🐝 Basic dependency injection container for JS &amp; React
+
+🐝 Basic IoC container for JS &amp; React
